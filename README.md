@@ -1,1 +1,9 @@
-# EXAMEN_BD_MACHINEL_CSGO
+# BD_MACHINE_CS_EV4
+Se puede concluir que Random Forest y K-Nearest Neighbors son los modelos con mejor desempeño general, mostrando consistentemente altos valores en todas las métricas evaluadas.
+
+El gráfico superior compara la Accuracy, Precision, Recall y F1-score de los cinco modelos. En este análisis, Random Forest y K-Nearest Neighbors sobresalen al obtener las puntuaciones más elevadas o igualar a los demás en estas métricas clave de rendimiento. El Árbol de Decisión también demuestra un buen rendimiento, aunque ligeramente por debajo de los dos modelos líderes. Por otro lado, SVM y Regresión Logística muestran métricas de rendimiento ligeramente inferiores en comparación con los otros tres modelos, siendo el SVM marginalmente mejor en ciertas métricas que la Regresión Logística.
+
+El gráfico inferior, que muestra el Área Bajo la Curva (AUC), refuerza estas conclusiones. Un valor de AUC cercano a 1.0 indica un excelente poder predictivo del clasificador. Todos los modelos exhiben un AUC muy alto, lo que sugiere que son competentes en la discriminación entre clases. No obstante, K-Nearest Neighbors y Random Forest nuevamente registran los valores de AUC ligeramente más altos, confirmando su superioridad. Aunque con diferencias mínimas, la Regresión Logística y el Árbol de Decisión presentan valores de AUC un poco menores en comparación con los líderes, pero aún así se consideran muy buenos.
+
+En resumen, existe una alta coherencia entre ambos gráficos, donde los modelos que destacan en las métricas individuales (Accuracy, Precision, Recall, F1) también presentan los mejores valores de AUC. Esto consolida a Random Forest y K-Nearest Neighbors como los modelos más robustos y de mejor rendimiento en este contexto. La elección final del modelo, sin embargo, podría depender de consideraciones adicionales como la complejidad computacional, el tiempo de entrenamiento y la interpretabilidad, factores no reflejados en estos gráficos.
+![image](https://github.com/user-attachments/assets/9dea27d7-524c-47ed-a7fd-91e993687d84)
